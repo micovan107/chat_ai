@@ -35,7 +35,7 @@
         import { evaluateMathExpression } from './mathAPI.js';
         import { translateText } from './translationAPI.js';
         import { getWeather } from './weatherAPI.js';
-        import { searchWikipedia } from './wikipediaAPI.js';
+        import { searchWikipedia, advancedSearch } from './wikipediaAPI.js';
 
         const chat = document.getElementById('chat');
         let brainData = {};
@@ -50,6 +50,28 @@
         }
 
         function getBrainReply(message) {
+            // Xử lý đặc biệt cho từ "ê"
+            if (message.includes('ê')) {
+                // Trường hợp 1: Chỉ có "ê"
+                if (message.trim() === 'ê') {
+                    return 'Dạ, mình đây. Bạn cần giúp gì không?';
+                }
+                
+                // Trường hợp 2: "ê" đứng đầu câu
+                if (message.trim().startsWith('ê')) {
+                    return 'Vâng, mình đang nghe đây. Bạn cần gì không?';
+                }
+                
+                // Trường hợp 3: "ê" là từ tách biệt trong câu
+                const words = message.split(/\s+/);
+                if (words.includes('ê')) {
+                    return 'Mình đây, bạn cần giúp gì không?';
+                }
+                
+                // Trường hợp 4: "ê" nằm trong từ khác thì bỏ qua
+            }
+            
+            // Xử lý các từ khóa khác trong brainData
             for (const [key, responses] of Object.entries(brainData)) {
                 if (message.includes(key)) {
                     const randomIndex = Math.floor(Math.random() * responses.length);
@@ -94,15 +116,32 @@
                 // Kiểm tra xem có phải yêu cầu tìm kiếm Wikipedia không
                 else if (message.match(/^(wiki|tìm)\s+(.+)$/)) {
                     const searchTerm = message.match(/^(?:wiki|tìm)\s+(.+)$/)[1];
-                    reply = await searchWikipedia(searchTerm);
+                    const result = await searchWikipedia(searchTerm);
+                    if (result.hasMore) {
+                        reply = result.summary + '\n\nBạn có muốn tìm hiểu thêm về chủ đề này không?';
+                        window.lastWikiQuery = result.query;
+                    } else {
+                        reply = result.summary;
+                    }
                 } else {
                     // Tìm câu trả lời từ brain
                     const brainReply = getBrainReply(message);
                     if (brainReply) {
                         reply = brainReply;
+                    } else if (message.toLowerCase() === 'có' && window.lastWikiQuery) {
+                        const detailedResult = await searchWikipedia(window.lastWikiQuery, true);
+                        const advancedResults = await advancedSearch(window.lastWikiQuery, { limit: 3, language: 'vi' });
+                        reply = detailedResult.summary + '\n\nThông tin chi tiết thêm:\n' + advancedResults;
+                        window.lastWikiQuery = null;
                     } else {
                         // Nếu không tìm thấy trong brain, tự động tìm trên Wikipedia
-                        reply = await searchWikipedia(message);
+                        const result = await searchWikipedia(message);
+                        if (result.hasMore) {
+                            reply = result.summary + '\n\nBạn có muốn tìm hiểu thêm về chủ đề này không?';
+                            window.lastWikiQuery = result.query;
+                        } else {
+                            reply = result.summary;
+                        }
                     }
                 }
             }
