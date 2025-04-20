@@ -8,7 +8,8 @@ async function translateText(text, targetLang) {
         'đức': 'de',
         'nhật': 'ja',
         'hàn': 'ko',
-        'trung': 'zh'
+        'trung': 'zh',
+        'việt': 'vi'
     };
 
     const lang = langMap[targetLang] || targetLang;
