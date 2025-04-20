@@ -118,76 +118,7 @@
         "Bạn đang học môn gì vậy?",
         "Cố gắng lên nhé, mình tin bạn làm được!"
     ],
-    "công việc": [
-        "Công việc của bạn thế nào rồi?",
-        "Bạn đang làm trong lĩnh vực gì vậy?",
-        "Chúc bạn thành công trong công việc nhé!"
-    ],
-    "sở thích": [
-        "Thời gian rảnh bạn thích làm gì?",
-        "Bạn có sở thích gì thú vị không?",
-        "Chia sẻ với mình về sở thích của bạn đi!"
-    ],
-    "gia đình": [
-        "Gia đình bạn có khỏe không?",
-        "Cuối tuần bạn có về thăm gia đình không?",
-        "Gia đình là điều quý giá nhất phải không?"
-    ],
-    "tương lai": [
-        "Bạn có dự định gì cho tương lai không?",
-        "Ước mơ của bạn là gì vậy?",
-        "Hãy cố gắng để đạt được mục tiêu nhé!"
-    ],
-    "cuộc sống": [
-        "Cuộc sống của bạn dạo này thế nào?",
-        "Bạn có điều gì vui muốn chia sẻ không?",
-        "Mong bạn luôn vui vẻ và hạnh phúc!"
-    ],
-    "giải trí": [
-        "Dạo này có phim hay gì không bạn?",
-        "Bạn thích xem phim gì nhất?",
-        "Cuối tuần này đi xem phim không?"
-    ],
-    "thể thao": [
-        "Bạn có theo dõi bóng đá không?",
-        "Môn thể thao yêu thích của bạn là gì?",
-        "Tập thể dục thường xuyên rất tốt cho sức khỏe đấy!"
-    ],
-    "âm nhạc": [
-        "Bạn thích nghe nhạc gì nhất?",
-        "Có bài hát nào đang hot không bạn?",
-        "Âm nhạc giúp tâm trạng tốt hơn đúng không?"
-    ],
-    "du lịch": [
-        "Bạn đã đi đâu chơi chưa?",
-        "Nơi nào bạn muốn đến nhất?",
-        "Du lịch là cách tốt để thư giãn nhỉ!"
-    ],
-    "đố vui": [
-        "Mình có một câu đố thú vị cho bạn đây!",
-        "Hãy thử sức với câu đố này nhé!",
-        "Cùng chơi đố vui nào!"
-    ],
-    "đố vui đi": [
-        "Được rồi, để mình nghĩ ra một câu đố hay ho nha!",
-        "Ok, mình sẽ đố bạn một câu thú vị!",
-        "Chờ chút, mình có câu đố hay lắm đây!"
-    ],
-    "ẩm thực": [
-        "Món ăn yêu thích của bạn là gì?",
-        "Bạn có biết nấu ăn không?",
-        "Hôm nay bạn ăn gì rồi?"
-    ],
-    "thời trang": [
-        "Phong cách thời trang của bạn thế nào?",
-        "Bạn thích mặc đồ kiểu gì?",
-        "Màu sắc yêu thích của bạn là gì?"
-    ],
-    "công nghệ": [
-        "Bạn có thích công nghệ mới không?",
-        "Điện thoại bạn đang dùng là gì?",
-        "Công nghệ phát triển nhanh quá phải không?"
-    ],
+    
     "tìm kiếm": [
         "Bạn muốn tìm kiếm thông tin gì?",
         "Mình có thể giúp bạn tìm kiếm qua Google.",
@@ -229,11 +160,7 @@
         "Được bạn khen, mình thấy rất vui!",
         "Mình luôn cố gắng để giúp bạn tốt nhất!"
     ],
-    "google": [
-        "Bạn muốn tìm gì trên Google?",
-        "Mình sẽ giúp bạn search Google.",
-        "Hãy cho mình biết nội dung cần tìm."
-    ],
+    
     "ko": [
         "Không sao đâu bạn ơi!",
         "Ồ vậy à, tại sao không nhỉ?",
@@ -343,11 +270,7 @@
         "Kể về chuyện trước đi!",
         "Trước kia ra sao?"
     ],
-    "sao z": [
-        "Sao vậy bạn?",
-        "Có chuyện gì à?",
-        "Kể mình nghe đi!"
-    ],
+    
     "zô": [
         "Vào đây nè!",
         "Chào mừng bạn!",
@@ -604,94 +527,26 @@
         "Chu vi hình chữ nhật = 2 × (dài + rộng)",
         "Chu vi hình tròn = 2 × π × bán kính"
     ],
-    "sức khỏe": [
-        "Bạn nhớ giữ gìn sức khỏe nhé!",
-        "Ăn uống đầy đủ dinh dưỡng nha!",
-        "Tập thể dục thường xuyên rất tốt đó!"
-    ],
-    "tình bạn": [
-        "Bạn bè là những người bạn quý giá nhất!",
-        "Tình bạn đẹp làm cuộc sống ý nghĩa hơn.",
-        "Hãy trân trọng những người bạn tốt nhé!"
-    ],
-    "mùa xuân": [
-        "Mùa xuân về với hoa đào nở rộ!",
-        "Không khí mùa xuân thật trong lành.",
-        "Tết đến xuân về, vui ghê ha!"
-    ],
-    "mùa hè": [
-        "Mùa hè nắng đẹp quá phải không?",
-        "Đi biển vào mùa hè thật tuyệt!",
-        "Nhớ uống nhiều nước vào mùa hè nha."
-    ],
-    "mùa thu": [
-        "Mùa thu với những chiếc lá vàng rơi.",
-        "Không khí mùa thu dễ chịu ghê!",
-        "Thích nhất là đi dạo vào mùa thu."
-    ],
-    "mùa đông": [
-        "Mùa đông lạnh quá, giữ ấm nhé bạn!",
-        "Thích nhất là được uống trà nóng.",
-        "Mùa đông về rồi, có gì vui không?"
-    ],
-    "môi trường": [
-        "Hãy cùng bảo vệ môi trường nhé!",
-        "Tiết kiệm năng lượng vì môi trường xanh.",
-        "Phân loại rác thải để tái chế nha!"
-    ],
-    "văn học": [
-        "Bạn thích đọc sách gì nhất?",
-        "Văn học giúp ta hiểu cuộc sống hơn.",
-        "Chia sẻ tác phẩm yêu thích đi!"
-    ],
-    "nghệ thuật": [
-        "Nghệ thuật làm cuộc sống thêm đẹp!",
-        "Bạn thích loại hình nghệ thuật nào?",
-        "Nghệ thuật giúp ta thư giãn tâm hồn."
-    ],
-    "tin tức": [
-        "Bạn có theo dõi tin tức hàng ngày không?",
-        "Có tin gì hot trong ngày hôm nay không?",
-        "Chia sẻ với mình những tin tức thú vị nhé!"
-    ],
-    "thời sự": [
-        "Tình hình thời sự dạo này thế nào bạn?",
-        "Có sự kiện nào đáng chú ý không?",
-        "Cập nhật tin tức thời sự mỗi ngày rất quan trọng đó!"
-    ],
-    "kinh tế": [
-        "Tình hình kinh tế đang có nhiều biến động nhỉ?",
-        "Bạn có quan tâm đến thị trường tài chính không?",
-        "Theo dõi tin kinh tế giúp ta có cái nhìn tổng quan hơn."
-    ],
-    "giáo dục": [
-        "Giáo dục là nền tảng của sự phát triển!",
-        "Bạn nghĩ gì về hệ thống giáo dục hiện nay?",
-        "Học tập suốt đời là chìa khóa của thành công đó!"
-    ],
-    "khoa học": [
-        "Những phát minh khoa học mới thật thú vị phải không?",
-        "Bạn có theo dõi các tin tức khoa học không?",
-        "Khoa học giúp cuộc sống của chúng ta tốt đẹp hơn!"
-    ],
-    "công nghệ mới": [
-        "Công nghệ phát triển nhanh quá phải không bạn?",
-        "Bạn có thích trải nghiệm công nghệ mới không?",
-        "Chia sẻ với mình về công nghệ bạn đang quan tâm!"
-    ],
-    "sáng tạo": [
-        "Sáng tạo giúp cuộc sống thêm thú vị!",
-        "Bạn có ý tưởng gì mới không?",
-        "Hãy chia sẻ những ý tưởng sáng tạo của bạn!"
-    ],
-    "kỹ năng": [
-        "Phát triển kỹ năng rất quan trọng đó bạn!",
-        "Bạn muốn học thêm kỹ năng gì?",
-        "Rèn luyện kỹ năng mỗi ngày sẽ giúp ta tiến bộ."
-    ],
+    
     "vl": [
         "sao vậy, tự dưng chửi thế",
         "?",
         "j vậy trời"
+    ],
+    
+    "ừ nhỉ": [
+        "Phải không bạn?",
+        "Bạn nghĩ sao?",
+        "Mình cũng thấy vậy, còn bạn?"
+    ],
+    "ừ ha": [
+        "Đúng rồi đó!",
+        "Chính xác!",
+        "Bạn nói đúng đấy!"
+    ],
+    "nước có diện tích lớn nhất thế giới": [
+        "Nga là quốc gia có diện tích lớn nhất thế giới với 17,098,246 km².",
+        "Liên bang Nga chiếm khoảng 1/8 diện tích đất liền trên Trái Đất.",
+        "Nga trải dài qua 11 múi giờ và có diện tích lớn hơn cả lục địa Nam Cực."
     ]
 }
