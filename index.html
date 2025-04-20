@@ -53,8 +53,15 @@
             message = message.toLowerCase();
             let reply = "Hmm... mình chưa hiểu, bạn có thể nói rõ hơn không?";
 
+            // Kiểm tra yêu cầu dịch thuật
+            const translateMatch = message.match(/^dịch(?:\s+từ)?\s+(.+?)(?:\s+sang\s+(?:tiếng\s+)?(.+))?$/);
+            if (translateMatch) {
+                const textToTranslate = translateMatch[1];
+                const targetLang = translateMatch[2] || 'việt';
+                reply = await translateText(textToTranslate, targetLang);
+            }
             // Kiểm tra biểu thức toán học
-            if (message.match(/^(tính|=)\s*(.+)$/) || message.match(/^[\d\s+\-*/().,]+$/)) {
+            else if (message.match(/^(tính|=)\s*(.+)$/) || message.match(/^[\d\s+\-*/().,]+$/)) {
                 const mathExpression = message.match(/^(?:tính|=)\s*(.+)$/)?.[1] || message;
                 const result = evaluateMathExpression(mathExpression);
                 if (result !== null) {
@@ -62,35 +69,28 @@
                 }
                 return "Xin lỗi, mình không thể tính toán biểu thức này. Hãy kiểm tra lại cú pháp.";
             }
-
-            // Kiểm tra yêu cầu dịch thuật
-            const translateMatch = message.match(/^dịch từ\s+(.+?)\s+sang tiếng\s+(.+)$/);
-            if (translateMatch) {
-                const textToTranslate = translateMatch[1];
-                const targetLang = translateMatch[2];
-                reply = await translateText(textToTranslate, targetLang);
-            }
-            
             // Kiểm tra yêu cầu thời tiết
-            const weatherMatch = message.match(/^thời tiết(?:\s+(.+?))?\s+tại\s+(.+?)(?:\s+(.+))?$/)
-                || message.match(/^thời tiết\s+tại\s+(.+?)(?:\s+(.+))?$/);
-            if (weatherMatch) {
-                const timeStr = weatherMatch[1] || weatherMatch[3] || 'hôm nay';
-                const location = weatherMatch[2];
-                reply = await getWeather(location, timeStr);
-            }
-            // Kiểm tra xem có phải yêu cầu tìm kiếm Wikipedia không
-            else if (message.match(/^(wiki|tìm)\s+(.+)$/)) {
-                const searchTerm = message.match(/^(?:wiki|tìm)\s+(.+)$/)[1];
-                reply = await searchWikipedia(searchTerm);
-            } else {
-                // Tìm câu trả lời từ brain
-                const brainReply = getBrainReply(message);
-                if (brainReply) {
-                    reply = brainReply;
+            else {
+                const weatherMatch = message.match(/^thời tiết(?:\s+(.+?))?\s+tại\s+(.+?)(?:\s+(.+))?$/)
+                    || message.match(/^thời tiết\s+tại\s+(.+?)(?:\s+(.+))?$/);
+                if (weatherMatch) {
+                    const timeStr = weatherMatch[1] || weatherMatch[3] || 'hôm nay';
+                    const location = weatherMatch[2];
+                    reply = await getWeather(location, timeStr);
+                }
+                // Kiểm tra xem có phải yêu cầu tìm kiếm Wikipedia không
+                else if (message.match(/^(wiki|tìm)\s+(.+)$/)) {
+                    const searchTerm = message.match(/^(?:wiki|tìm)\s+(.+)$/)[1];
+                    reply = await searchWikipedia(searchTerm);
                 } else {
-                    // Nếu không tìm thấy trong brain, tự động tìm trên Wikipedia
-                    reply = await searchWikipedia(message);
+                    // Tìm câu trả lời từ brain
+                    const brainReply = getBrainReply(message);
+                    if (brainReply) {
+                        reply = brainReply;
+                    } else {
+                        // Nếu không tìm thấy trong brain, tự động tìm trên Wikipedia
+                        reply = await searchWikipedia(message);
+                    }
                 }
             }
             return reply;
