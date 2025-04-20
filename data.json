@@ -68,7 +68,7 @@
     ],
     
     
-    "ê": [
+    "^ê$|^ê\\s|\\sê$|\\sê\\s": [
         "Dạ, mình đây bạn!",
         "Có gì không bạn?",
         "Mình nghe nè, bạn cần gì không?"
@@ -548,5 +548,26 @@
         "Nga là quốc gia có diện tích lớn nhất thế giới với 17,098,246 km².",
         "Liên bang Nga chiếm khoảng 1/8 diện tích đất liền trên Trái Đất.",
         "Nga trải dài qua 11 múi giờ và có diện tích lớn hơn cả lục địa Nam Cực."
+    ],
+    "tên bạn là gì": [
+        "mình là dikey bot rất vui được gặp bạn",
+        "mình là chat bot không có tên, bạn có thể gọi mình là gì cũng được",
+        "mình là chat bot oke"
+    ],
+    
+    "tra cứu": [
+        "Bạn muốn tra cứu thông tin gì? Mình sẽ tìm giúp bạn.",
+        "Mình có thể giúp bạn tra cứu thông tin từ nhiều nguồn khác nhau.",
+        "Hãy nói cho mình biết bạn muốn tra cứu gì nhé!"
+    ],
+    "wiki": [
+        "Bạn muốn tìm thông tin gì trên Wikipedia?",
+        "Mình sẽ tìm trên Wikipedia giúp bạn.",
+        "Hãy cho mình biết chủ đề bạn muốn tìm hiểu."
+    ],
+    "dài quá": [
+        "xin lỗi , mình sẽ cố gắng rút gọn thông tin để bạn dễ hiểu hơn.",
+        "mình sẽ tìm cách rút gọn thông tin cho bạn.",
+        "hãy cho mình biết bạn muốn rút gọn thông tin về gì."
     ]
 }
