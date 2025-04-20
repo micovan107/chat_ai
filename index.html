@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat AI - Học từ JSON</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #1c1c1c; color: #eee; padding: 20px; }
+        #chat { border: 1px solid #444; padding: 10px; height: 400px; overflow-y: auto; background: #2b2b2b; }
+        .bot { color: #00ff7f; margin: 5px 0; }
+        .user { color: #1e90ff; margin: 5px 0; }
+        input { width: 80%; padding: 8px; }
+        button { padding: 8px; }
+    </style>
+</head>
+<body>
+    <h2>💡 ChatBot với "Bộ Não JSON"</h2>
+    <div id="chat"></div>
+    <input type="text" id="userInput" placeholder="Nhập tin nhắn..." onkeydown="if(event.key === 'Enter') sendMessage()">
+    <button onclick="sendMessage()">Gửi</button>
+
+    <script type="module">
+        import { evaluateMathExpression } from './mathAPI.js';
+        import { translateText } from './translationAPI.js';
+        import { getWeather } from './weatherAPI.js';
+        import { searchWikipedia } from './wikipediaAPI.js';
+
+        const chat = document.getElementById('chat');
+        let brainData = {};
+
+        async function loadBrain() {
+            try {
+                const response = await fetch('./data.json');
+                brainData = await response.json();
+            } catch (error) {
+                console.error('Lỗi khi tải dữ liệu:', error);
+            }
+        }
+
+        function getBrainReply(message) {
+            for (const [key, responses] of Object.entries(brainData)) {
+                if (message.includes(key)) {
+                    const randomIndex = Math.floor(Math.random() * responses.length);
+                    return responses[randomIndex];
+                }
+            }
+            return null;
+        }
+
+        // Khởi tạo dữ liệu
+        await loadBrain();
+
+        async function getBotReply(message) {
+            message = message.toLowerCase();
+            let reply = "Hmm... mình chưa hiểu, bạn có thể nói rõ hơn không?";
+
+            // Kiểm tra biểu thức toán học
+            if (message.match(/^(tính|=)\s*(.+)$/) || message.match(/^[\d\s+\-*/().,]+$/)) {
+                const mathExpression = message.match(/^(?:tính|=)\s*(.+)$/)?.[1] || message;
+                const result = evaluateMathExpression(mathExpression);
+                if (result !== null) {
+                    return `Kết quả: ${mathExpression} = ${result}`;
+                }
+                return "Xin lỗi, mình không thể tính toán biểu thức này. Hãy kiểm tra lại cú pháp.";
+            }
+
+            // Kiểm tra yêu cầu dịch thuật
+            const translateMatch = message.match(/^dịch từ\s+(.+?)\s+sang tiếng\s+(.+)$/);
+            if (translateMatch) {
+                const textToTranslate = translateMatch[1];
+                const targetLang = translateMatch[2];
+                reply = await translateText(textToTranslate, targetLang);
+            }
+            
+            // Kiểm tra yêu cầu thời tiết
+            const weatherMatch = message.match(/^thời tiết(?:\s+(.+?))?\s+tại\s+(.+?)(?:\s+(.+))?$/)
+                || message.match(/^thời tiết\s+tại\s+(.+?)(?:\s+(.+))?$/);
+            if (weatherMatch) {
+                const timeStr = weatherMatch[1] || weatherMatch[3] || 'hôm nay';
+                const location = weatherMatch[2];
+                reply = await getWeather(location, timeStr);
+            }
+            // Kiểm tra xem có phải yêu cầu tìm kiếm Wikipedia không
+            else if (message.match(/^(wiki|tìm)\s+(.+)$/)) {
+                const searchTerm = message.match(/^(?:wiki|tìm)\s+(.+)$/)[1];
+                reply = await searchWikipedia(searchTerm);
+            } else {
+                // Tìm câu trả lời từ brain
+                const brainReply = getBrainReply(message);
+                if (brainReply) {
+                    reply = brainReply;
+                } else {
+                    // Nếu không tìm thấy trong brain, tự động tìm trên Wikipedia
+                    reply = await searchWikipedia(message);
+                }
+            }
+            return reply;
+        }
+
+        window.sendMessage = async function() {
+            const input = document.getElementById('userInput');
+            const userText = input.value.trim();
+            if (!userText) return;
+
+            chat.innerHTML += `<div class="user">Bạn: ${userText}</div>`;
+            input.value = '';
+
+            const botReply = await getBotReply(userText);
+
+            setTimeout(() => {
+                chat.innerHTML += `<div class="bot">Bot: ${botReply}</div>`;
+                chat.scrollTop = chat.scrollHeight;
+            }, 500);
+        };
+    </script>
+</body>
+</html>

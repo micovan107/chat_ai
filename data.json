@@ -1,0 +1,697 @@
+{
+    "xin chào": [
+        "Xin chào bạn! Rất vui được gặp bạn.",
+        "Chào mừng bạn đến với cuộc trò chuyện!",
+        "Xin chào! Mình sẵn sàng hỗ trợ bạn."
+    ],
+    "chào": [
+        "Chào bạn! Rất vui được gặp bạn.",
+        "Chào mừng bạn đến với cuộc trò chuyện!", 
+        "Xin chào! Mình sẵn sàng hỗ trợ bạn."
+    ],
+    "hi": [
+        "Xin chào bạn! Rất vui được gặp bạn.",
+        "Chào mừng bạn đến với cuộc trò chuyện!",
+        "Xin chào! Mình sẵn sàng hỗ trợ bạn."
+    ],
+    "bạn tên gì": [
+        "Mình là trợ lý ảo, rất vui được làm quen với bạn!",
+        "Mình là chatbot thông minh, luôn sẵn sàng trò chuyện với bạn.",
+        "Mình là trợ lý AI, có thể giúp gì cho bạn không?"
+    ],
+    "tên gì": [
+        "Mình là trợ lý ảo, rất vui được làm quen với bạn!",
+        "Mình là chatbot thông minh, luôn sẵn sàng trò chuyện với bạn.",
+        "Mình là trợ lý AI, có thể giúp gì cho bạn không?"
+    ],
+    "bạn làm gì": [
+        "Mình là trợ lý AI, có nhiệm vụ hỗ trợ và trò chuyện với bạn.",
+        "Mình ở đây để lắng nghe và giải đáp thắc mắc của bạn.",
+        "Mình sẽ cố gắng giúp bạn giải quyết mọi vấn đề!"
+    ],
+    "làm gì": [
+        "Mình là trợ lý AI, có nhiệm vụ hỗ trợ và trò chuyện với bạn.",
+        "Mình ở đây để lắng nghe và giải đáp thắc mắc của bạn.",
+        "Mình sẽ cố gắng giúp bạn giải quyết mọi vấn đề!"
+    ],
+    "tính toán": [
+        "Mình có thể giúp bạn giải các bài toán. Hãy đưa ra biểu thức cần tính nhé!",
+        "Mình sẽ giúp bạn tính toán. Hãy nhập biểu thức toán học bạn muốn giải.",
+        "Bạn cứ đưa ra phép tính, mình sẽ giúp bạn tính kết quả."
+    ],
+    "giải toán": [
+        "Mình có thể giúp bạn giải các bài toán. Hãy đưa ra biểu thức cần tính nhé!",
+        "Mình sẽ giúp bạn tính toán. Hãy nhập biểu thức toán học bạn muốn giải.",
+        "Bạn cứ đưa ra phép tính, mình sẽ giúp bạn tính kết quả."
+    
+    ],
+    ":)":["😊 Vui quá! Mình cũng đang vui nè","😄 Hehe, cùng cười nào!","😃 Thật tuyệt khi thấy bạn vui vẻ!"],
+    ":(":["😢 Đừng buồn nha bạn","🥺 Mình ở đây lắng nghe bạn","😔 Mọi chuyện rồi sẽ ổn thôi"],
+    ":0":["😲 Ồ, bất ngờ thật!","😮 Wow!","😯 Thật không thể tin được!"],
+    ">^<":["🥰 Dễ thương quá!","😊 Thật đáng yêu!","💖 Cưng ghê!"],
+    "_-_":["😑 Hmm...","😐 ...","🤨 Sao thế bạn?"],
+    "chán":["😔 Sao lại chán vậy bạn?","🤗 Có mình ở đây với bạn nè!","💪 Cố lên nha, mọi chuyện rồi sẽ tốt thôi!"],
+    "chán quá":["😢 Chia sẻ với mình đi, sao lại chán thế?","🌟 Hay mình cùng làm gì đó vui vẻ nhé!","🤝 Mình luôn ở đây lắng nghe bạn đó!"],
+    "vui vãi":["🎉 Vui quá ha! Kể mình nghe với!","😄 Thích ghê! Chia sẻ niềm vui nào!","🥳 Yeah! Cùng vui với bạn nè!"],
+    "buồn":["🫂 Đừng buồn nữa bạn nhé!","💝 Có mình ở đây với bạn!","🌈 Sau cơn mưa trời lại sáng mà!"],
+    ":3":["😺 Meow meow!","😸 Cute quá!","😽 Dễ thương ghê!"],
+    "^_^":["😊 Hihi","🥰 Vui ghê!","😄 Thích quá!"],
+    "tạm biệt": [
+        "Tạm biệt bạn! Chúc bạn một ngày tốt lành.",
+        "Hẹn gặp lại bạn sớm nhé!",
+        "Tạm biệt, mong sớm được trò chuyện cùng bạn lần nữa!"
+    ],
+    "bye": [
+        "Tạm biệt bạn! Chúc bạn một ngày tốt lành.",
+        "Hẹn gặp lại bạn sớm nhé!",
+        "Tạm biệt, mong sớm được trò chuyện cùng bạn lần nữa!"
+    ],
+    
+    
+    "ê": [
+        "Dạ, mình đây bạn!",
+        "Có gì không bạn?",
+        "Mình nghe nè, bạn cần gì không?"
+    ],
+    "nè": [
+        "Dạ, mình đây!",
+        "Mình đang nghe nè!",
+        "Có chuyện gì vậy bạn?"
+    ],
+    "này": [
+        "Vâng, mình đây ạ!",
+        "Mình đang lắng nghe đây!",
+        "Bạn cần mình giúp gì không?"
+    ],
+    "ê mày": [
+        "Bạn có thể gọi mình nhẹ nhàng hơn được không?",
+        "Mình vẫn ở đây, nhưng hãy nói chuyện lịch sự hơn nhé!",
+        "Mình sẽ vui hơn nếu bạn xưng hô thân thiện ạ!"
+    ],
+    "lô": [
+        "Xin chào bạn!",
+        "Mình đây, có gì không bạn?",
+        "Chào bạn, mình nghe đây!"
+    ],
+    "alo": [
+        "Dạ, mình đang nghe đây!",
+        "Xin chào, mình có thể giúp gì không?",
+        "Vâng, mình đây ạ!"
+    ],
+    "khỏe không": [
+        "Mình khỏe, cảm ơn bạn đã quan tâm! Còn bạn thì sao?",
+        "Mình luôn tràn đầy năng lượng. Bạn có khỏe không?",
+        "Mình rất khỏe, mong bạn cũng vậy!"
+    ],
+    "khỏe không bạn": [
+        "Mình khỏe, cảm ơn bạn đã quan tâm! Còn bạn thì sao?",
+        "Mình luôn tràn đầy năng lượng. Bạn có khỏe không?",
+        "Mình rất khỏe, mong bạn cũng vậy!"
+    ],
+    "cảm ơn": [
+        "Không có gì đâu bạn ơi!",
+        "Rất vui được giúp bạn!",
+        "Đó là niềm vui của mình!"
+    ],
+    "học tập": [
+        "Học tập là chìa khóa của thành công đó bạn!",
+        "Bạn đang học môn gì vậy?",
+        "Cố gắng lên nhé, mình tin bạn làm được!"
+    ],
+    "công việc": [
+        "Công việc của bạn thế nào rồi?",
+        "Bạn đang làm trong lĩnh vực gì vậy?",
+        "Chúc bạn thành công trong công việc nhé!"
+    ],
+    "sở thích": [
+        "Thời gian rảnh bạn thích làm gì?",
+        "Bạn có sở thích gì thú vị không?",
+        "Chia sẻ với mình về sở thích của bạn đi!"
+    ],
+    "gia đình": [
+        "Gia đình bạn có khỏe không?",
+        "Cuối tuần bạn có về thăm gia đình không?",
+        "Gia đình là điều quý giá nhất phải không?"
+    ],
+    "tương lai": [
+        "Bạn có dự định gì cho tương lai không?",
+        "Ước mơ của bạn là gì vậy?",
+        "Hãy cố gắng để đạt được mục tiêu nhé!"
+    ],
+    "cuộc sống": [
+        "Cuộc sống của bạn dạo này thế nào?",
+        "Bạn có điều gì vui muốn chia sẻ không?",
+        "Mong bạn luôn vui vẻ và hạnh phúc!"
+    ],
+    "giải trí": [
+        "Dạo này có phim hay gì không bạn?",
+        "Bạn thích xem phim gì nhất?",
+        "Cuối tuần này đi xem phim không?"
+    ],
+    "thể thao": [
+        "Bạn có theo dõi bóng đá không?",
+        "Môn thể thao yêu thích của bạn là gì?",
+        "Tập thể dục thường xuyên rất tốt cho sức khỏe đấy!"
+    ],
+    "âm nhạc": [
+        "Bạn thích nghe nhạc gì nhất?",
+        "Có bài hát nào đang hot không bạn?",
+        "Âm nhạc giúp tâm trạng tốt hơn đúng không?"
+    ],
+    "du lịch": [
+        "Bạn đã đi đâu chơi chưa?",
+        "Nơi nào bạn muốn đến nhất?",
+        "Du lịch là cách tốt để thư giãn nhỉ!"
+    ],
+    "đố vui": [
+        "Mình có một câu đố thú vị cho bạn đây!",
+        "Hãy thử sức với câu đố này nhé!",
+        "Cùng chơi đố vui nào!"
+    ],
+    "đố vui đi": [
+        "Được rồi, để mình nghĩ ra một câu đố hay ho nha!",
+        "Ok, mình sẽ đố bạn một câu thú vị!",
+        "Chờ chút, mình có câu đố hay lắm đây!"
+    ],
+    "ẩm thực": [
+        "Món ăn yêu thích của bạn là gì?",
+        "Bạn có biết nấu ăn không?",
+        "Hôm nay bạn ăn gì rồi?"
+    ],
+    "thời trang": [
+        "Phong cách thời trang của bạn thế nào?",
+        "Bạn thích mặc đồ kiểu gì?",
+        "Màu sắc yêu thích của bạn là gì?"
+    ],
+    "công nghệ": [
+        "Bạn có thích công nghệ mới không?",
+        "Điện thoại bạn đang dùng là gì?",
+        "Công nghệ phát triển nhanh quá phải không?"
+    ],
+    "tìm kiếm": [
+        "Bạn muốn tìm kiếm thông tin gì?",
+        "Mình có thể giúp bạn tìm kiếm qua Google.",
+        "Hãy cho mình biết từ khóa bạn muốn tìm."
+    ],
+    "dịch": [
+        "Mình có thể giúp bạn dịch văn bản sang nhiều ngôn ngữ khác nhau.",
+        "Hãy sử dụng cú pháp: 'dịch từ [văn bản] sang tiếng [ngôn ngữ]'.",
+        "Ví dụ: 'dịch từ xin chào sang tiếng anh'."
+    ],
+    "dịch giúp": [
+        "Để dịch, bạn hãy dùng cú pháp: 'dịch từ [văn bản] sang tiếng [ngôn ngữ]'.",
+        "Mình hỗ trợ dịch sang nhiều ngôn ngữ như: Anh, Pháp, Đức, Nhật, Hàn, Trung...",
+        "Ví dụ: 'dịch từ tôi yêu bạn sang tiếng nhật'."
+    ],
+    "search": [
+        "Bạn cần tìm thông tin gì?", 
+        "Mình sẽ giúp bạn tìm kiếm qua Google.",
+        "Nhập từ khóa bạn muốn tìm nhé."
+    ],
+    
+    "tốt lắm": [
+        "Cảm ơn bạn! Mình rất vui khi được giúp đỡ bạn.",
+        "Thật tuyệt khi nghe bạn nói vậy!",
+        "Mình sẽ cố gắng hơn nữa!"
+    ],
+    "hay quá": [
+        "Cảm ơn lời khen của bạn!",
+        "Mình rất vui khi được bạn khen ngợi!",
+        "Thật tuyệt vời khi được giúp ích cho bạn!"
+    ],
+    "tuyệt": [
+        "Cảm ơn bạn rất nhiều!",
+        "Mình rất vui khi làm bạn hài lòng!",
+        "Những lời khen của bạn là động lực cho mình!"
+    ],
+    "giỏi quá": [
+        "Cảm ơn bạn! Mình sẽ cố gắng hơn nữa.",
+        "Được bạn khen, mình thấy rất vui!",
+        "Mình luôn cố gắng để giúp bạn tốt nhất!"
+    ],
+    "google": [
+        "Bạn muốn tìm gì trên Google?",
+        "Mình sẽ giúp bạn search Google.",
+        "Hãy cho mình biết nội dung cần tìm."
+    ],
+    "ko": [
+        "Không sao đâu bạn ơi!",
+        "Ồ vậy à, tại sao không nhỉ?",
+        "Mình hiểu rồi, không vấn đề gì!"
+    ],
+    "ok": [
+        "Tuyệt vời!",
+        "Được rồi, mình sẽ ghi nhớ nhé!",
+        "Ok luôn, còn gì nữa không bạn?"
+    ],
+    "uh": [
+        "Ừ, mình đang lắng nghe bạn đây!",
+        "Ừ ha, mình hiểu rồi!",
+        "Ừm, bạn nói tiếp đi!"
+    ],
+    
+    
+    
+    "kk": [
+        "Hihi, vui ghê!",
+        "Cười quá trời luôn!",
+        "Vui thật đó nha!"
+    ],
+    "uk": [
+        "Ừ, mình hiểu mà!",
+        "Ừm, bạn nói tiếp đi!",
+        "Ừ nha, mình đang nghe nè!"
+    ],
+    "dc": [
+        "Tốt quá rồi!",
+        "Được luôn, vui ghê!",
+        "Hay quá, chúc mừng bạn nhé!"
+    ],
+    "đc": [
+        "Tuyệt vời quá!",
+        "Được rồi đó!",
+        "Hay quá, chúc mừng nha!"
+    ],
+    "hok": [
+        "Sao vậy bạn?",
+        "Có chuyện gì à?",
+        "Kể mình nghe đi!"
+    ],
+    "hem": [
+        "Không sao mà bạn!",
+        "Có gì đâu nè!",
+        "Đừng lo, không sao đâu!"
+    ],
+    "hk": [
+        "Không sao hết!",
+        "Có chuyện gì vậy?",
+        "Kể mình nghe với!"
+    ],
+    "ntn": [
+        "Bạn muốn biết như thế nào ạ?",
+        "Mình sẽ giải thích cho bạn nhé!",
+        "Để mình chia sẻ với bạn nhé!"
+    ],
+    "ns": [
+        "Bạn nói gì thế?",
+        "Chia sẻ thêm đi!",
+        "Mình đang lắng nghe nè!"
+    ],
+    "vậy á": [
+        "Ừ đúng rồi đó!",
+        "Chính xác là vậy đó!",
+        "Đúng vậy đó bạn ơi!"
+    ],
+    
+    "zị": [
+        "Ừ, đúng zị đó!",
+        "Chính xác là zị đó!",
+        "Phải zị đó bạn!"
+    ],
+    "zậy": [
+        "Ừm, là zậy đó!",
+        "Đúng zậy nè!",
+        "Chính xác là zậy!"
+    ],
+    "đag": [
+        "Bạn đang làm gì vậy?",
+        "Kể mình nghe đi!",
+        "Chia sẻ với mình nha!"
+    ],
+    "đj": [
+        "Bạn đi đâu đó?",
+        "Đi chơi à?",
+        "Đi đâu vậy bạn?"
+    ],
+    "hj": [
+        "Hihi, vui quá!",
+        "Hehe, cười ghê!",
+        "Hihi, vui thật!"
+    ],
+    "hjhj": [
+        "Haha, vui quá đi!",
+        "Hihi, cười muốn xỉu!",
+        "Hehe, vui thật đó!"
+    ],
+    "kqua": [
+        "Kết quả thế nào rồi?",
+        "Chia sẻ kết quả đi!",
+        "Kể mình nghe kết quả nha!"
+    ],
+    "trc": [
+        "Trước đó thế nào?",
+        "Kể về chuyện trước đi!",
+        "Trước kia ra sao?"
+    ],
+    "sao z": [
+        "Sao vậy bạn?",
+        "Có chuyện gì à?",
+        "Kể mình nghe đi!"
+    ],
+    "zô": [
+        "Vào đây nè!",
+        "Chào mừng bạn!",
+        "Vào chơi nha!"
+    ],
+    "zui": [
+        "Vui ghê ha!",
+        "Vui quá đi!",
+        "Thật là vui!"
+    ],
+    "zẻ": [
+        "Vẻ gì đó bạn?",
+        "Kể mình nghe đi!",
+        "Chia sẻ với mình nha!"
+    ],
+    "zàng": [
+        "Sáng nay thế nào?",
+        "Chào buổi sáng!",
+        "Sáng nay khỏe không?"
+    ],
+    "zìa": [
+        "Về rồi à?",
+        "Về nhà chưa?",
+        "Về đến nơi chưa?"
+    ],
+    "zô ghê": [
+        "Vào đây nè bạn ơi!",
+        "Chào mừng nha!",
+        "Vào chơi với mình!"
+    ],
+    "cũng z": [
+        "Ừ, cũng vậy đó!",
+        "Đúng rồi, cũng thế!",
+        "Phải, cũng vậy!"
+    ],
+    "thế à": [
+        "Ừ đúng đó!",
+        "Chính xác vậy đó!",
+        "Đúng thế đó bạn!"
+    ],
+    "thế á": [
+        "Ừm, đúng vậy!",
+        "Chính xác là thế!",
+        "Đúng như vậy đó!"
+    ],
+    "ơi": [
+        "Dạ, mình đây!",
+        "Có mình nè!",
+        "Mình nghe nè!"
+    ],
+    "ơiii": [
+        "Dạ dạ, có mình đây!",
+        "Mình đang nghe nè!",
+        "Có gì không bạn?"
+    ],
+    "uh huh": [
+        "Ừ, mình hiểu rồi!",
+        "Đúng đó bạn!",
+        "Chính xác!"
+    ],
+    "uhm": [
+        "Ừm, mình đang nghe!",
+        "Ừ, tiếp tục đi!",
+        "Mình đang lắng nghe đây!"
+    ],
+    "hic": [
+        "Đừng buồn nha bạn ơi!",
+        "Có mình ở đây với bạn nè!",
+        "Chia sẻ với mình đi, đừng buồn nữa!"
+    ],
+    "huhu": [
+        "Đừng khóc nữa bạn nhé!",
+        "Mọi chuyện rồi sẽ ổn thôi!",
+        "Có mình ở đây, đừng buồn nha!"
+    ],
+    "hehe": [
+        "Vui ghê ha!",
+        "Cười hoài vậy bạn!",
+        "Thấy bạn vui, mình cũng vui nè!"
+    ],
+    "kaka": [
+        "Hihi, vui quá ta!",
+        "Cười ghê luôn á!",
+        "Vui thật đó nha!"
+    ],
+    "keke": [
+        "Hehe, vui ghê!",
+        "Cười quá trời!",
+        "Vui thế nhờ!"
+    ],
+    "haha": [
+        "Vui quá ha!",
+        "Cười vui ghê!",
+        "Thích thế nhờ!"
+    ],
+    "hihi": [
+        "Hihi, vui thật!",
+        "Cười hoài vậy!",
+        "Vui quá đi!"
+    ],
+    "hoho": [
+        "Ho ho, vui ghê!",
+        "Cười sảng khoái quá!",
+        "Vui thế này thì còn gì bằng!"
+    ],
+    "hix": [
+        "Sao vậy bạn ơi?",
+        "Có chuyện gì buồn hả?",
+        "Đừng buồn nữa nha!"
+    ],
+    "hix hix": [
+        "Thôi nào, đừng buồn nữa!",
+        "Có mình đây, chia sẻ đi!",
+        "Mọi chuyện rồi sẽ ổn thôi bạn ạ!"
+    ],
+    "ặc": [
+        "Ủa, sao vậy bạn?",
+        "Có gì không ổn à?",
+        "Kể mình nghe đi!"
+    ],
+    "ơ kìa": [
+        "Sao thế bạn ơi?",
+        "Có chuyện gì vậy?",
+        "Bất ngờ lắm hả?"
+    ],
+    "ui chà": [
+        "Ghê ha!",
+        "Bất ngờ chưa!",
+        "Thú vị phải không?"
+    ],
+    "trời ơi": [
+        "Sao vậy bạn?",
+        "Có chuyện gì bất ngờ à?",
+        "Kể mình nghe với!"
+    ],
+    "trời ui": [
+        "Chuyện gì làm bạn ngạc nhiên vậy?",
+        "Có gì hot vậy ta?",
+        "Chia sẻ ngay đi!"
+    ],
+    "toán học": [
+        "Toán học thật thú vị phải không bạn?",
+        "Bạn có thích môn toán không?",
+        "Toán học giúp rèn luyện tư duy logic đấy!"
+    ],
+    "phép tính": [
+        "Bạn cần giúp đỡ với phép tính nào?",
+        "Hãy giải từng bước một nhé!",
+        "Kiểm tra kỹ kết quả trước khi trả lời nha!"
+    ],
+    "hình học": [
+        "Hình học có nhiều ứng dụng thực tế lắm đó!",
+        "Bạn đang học về hình nào vậy?",
+        "Nhớ vẽ hình thật cẩn thận nhé!"
+    ],
+    "đại số": [
+        "Đại số giúp ta giải quyết nhiều bài toán hay!",
+        "Bạn có thích giải phương trình không?",
+        "Đừng quên kiểm tra nghiệm cuối cùng nha!"
+    ],
+    
+    "bài tập": [
+        "Làm bài tập đều đặn sẽ tiến bộ nhanh đó!",
+        "Bạn đang làm bài tập gì vậy?",
+        "Cố gắng làm hết bài tập nhé!"
+    ],
+    "công thức": [
+        "Ghi nhớ công thức quan trọng sẽ giúp ích nhiều đấy!",
+        "Bạn cần tìm công thức nào?",
+        "Áp dụng công thức đúng cách sẽ giải nhanh hơn!"
+    ],
+    "phương trình bậc nhất": [
+        "Phương trình bậc nhất có dạng ax + b = 0, với a ≠ 0",
+        "Nghiệm của phương trình bậc nhất là x = -b/a",
+        "Hãy kiểm tra điều kiện a ≠ 0 trước khi giải nhé!"
+    ],
+    "phương trình bậc hai": [
+        "Phương trình bậc hai có dạng ax² + bx + c = 0, với a ≠ 0",
+        "Delta = b² - 4ac, dựa vào delta ta xét số nghiệm",
+        "Công thức nghiệm: x = (-b ± √delta)/(2a)"
+    ],
+    "hình học phẳng": [
+        "Diện tích hình chữ nhật = dài × rộng",
+        "Diện tích tam giác = (đáy × chiều cao)/2",
+        "Diện tích hình tròn = π × r²"
+    ],
+    "hình học không gian": [
+        "Thể tích hình hộp chữ nhật = dài × rộng × cao",
+        "Thể tích hình cầu = (4/3)πr³",
+        "Thể tích hình nón = (1/3)πr²h"
+    ],
+    "lượng giác": [
+        "sin²α + cos²α = 1 là công thức cơ bản",
+        "tanα = sinα/cosα, với cosα ≠ 0",
+        "Nhớ xác định góc trong khoảng nào nhé!"
+    ],
+    "đạo hàm": [
+        "Đạo hàm giúp ta tìm tiếp tuyến của đường cong",
+        "Đạo hàm hằng số = 0, đạo hàm x^n = nx^(n-1)",
+        "Dùng đạo hàm để tìm cực trị của hàm số"
+    ],
+    "tích phân": [
+        "Tích phân là phép toán ngược của đạo hàm",
+        "Tích phân xác định tính diện tích, thể tích",
+        "Nhớ thêm hằng số C khi tích phân không xác định"
+    ],
+    "xác suất thống kê": [
+        "Xác suất của một biến cố nằm trong khoảng [0,1]",
+        "Trung bình mẫu = tổng các giá trị/số lượng mẫu",
+        "Phương sai đo độ phân tán của dữ liệu"
+    ],
+    "cộng": [
+        "Phép cộng là phép toán cơ bản nhất",
+        "Ví dụ: 5 + 3 = 8",
+        "Phép cộng có tính chất giao hoán: a + b = b + a"
+    ],
+    "trừ": [
+        "Phép trừ là phép toán ngược của phép cộng",
+        "Ví dụ: 8 - 3 = 5",
+        "Phép trừ không có tính chất giao hoán"
+    ],
+    "nhân": [
+        "Phép nhân là phép cộng nhiều lần một số",
+        "Ví dụ: 3 × 4 = 12",
+        "Phép nhân có tính chất giao hoán: a × b = b × a"
+    ],
+    "chia": [
+        "Phép chia là phép toán ngược của phép nhân",
+        "Ví dụ: 12 ÷ 3 = 4",
+        "Lưu ý: không thể chia cho số 0"
+    ],
+    "căn bậc hai": [
+        "Căn bậc hai là số mà bình phương lại được số đã cho",
+        "Ví dụ: √16 = 4 vì 4² = 16",
+        "Số âm không có căn bậc hai thực"
+    ],
+    "bình phương": [
+        "Bình phương là nhân một số với chính nó",
+        "Ví dụ: 5² = 5 × 5 = 25",
+        "Bình phương luôn cho kết quả không âm"
+    ],
+    "giải phương trình": [
+        "Đọc kỹ đề bài và xác định loại phương trình",
+        "Áp dụng công thức phù hợp để giải",
+        "Kiểm tra lại nghiệm cuối cùng"
+    ],
+    "tính diện tích": [
+        "Diện tích hình vuông = cạnh × cạnh",
+        "Diện tích hình chữ nhật = dài × rộng",
+        "Diện tích tam giác = (đáy × cao)/2"
+    ],
+    "tính chu vi": [
+        "Chu vi hình vuông = 4 × cạnh",
+        "Chu vi hình chữ nhật = 2 × (dài + rộng)",
+        "Chu vi hình tròn = 2 × π × bán kính"
+    ],
+    "sức khỏe": [
+        "Bạn nhớ giữ gìn sức khỏe nhé!",
+        "Ăn uống đầy đủ dinh dưỡng nha!",
+        "Tập thể dục thường xuyên rất tốt đó!"
+    ],
+    "tình bạn": [
+        "Bạn bè là những người bạn quý giá nhất!",
+        "Tình bạn đẹp làm cuộc sống ý nghĩa hơn.",
+        "Hãy trân trọng những người bạn tốt nhé!"
+    ],
+    "mùa xuân": [
+        "Mùa xuân về với hoa đào nở rộ!",
+        "Không khí mùa xuân thật trong lành.",
+        "Tết đến xuân về, vui ghê ha!"
+    ],
+    "mùa hè": [
+        "Mùa hè nắng đẹp quá phải không?",
+        "Đi biển vào mùa hè thật tuyệt!",
+        "Nhớ uống nhiều nước vào mùa hè nha."
+    ],
+    "mùa thu": [
+        "Mùa thu với những chiếc lá vàng rơi.",
+        "Không khí mùa thu dễ chịu ghê!",
+        "Thích nhất là đi dạo vào mùa thu."
+    ],
+    "mùa đông": [
+        "Mùa đông lạnh quá, giữ ấm nhé bạn!",
+        "Thích nhất là được uống trà nóng.",
+        "Mùa đông về rồi, có gì vui không?"
+    ],
+    "môi trường": [
+        "Hãy cùng bảo vệ môi trường nhé!",
+        "Tiết kiệm năng lượng vì môi trường xanh.",
+        "Phân loại rác thải để tái chế nha!"
+    ],
+    "văn học": [
+        "Bạn thích đọc sách gì nhất?",
+        "Văn học giúp ta hiểu cuộc sống hơn.",
+        "Chia sẻ tác phẩm yêu thích đi!"
+    ],
+    "nghệ thuật": [
+        "Nghệ thuật làm cuộc sống thêm đẹp!",
+        "Bạn thích loại hình nghệ thuật nào?",
+        "Nghệ thuật giúp ta thư giãn tâm hồn."
+    ],
+    "tin tức": [
+        "Bạn có theo dõi tin tức hàng ngày không?",
+        "Có tin gì hot trong ngày hôm nay không?",
+        "Chia sẻ với mình những tin tức thú vị nhé!"
+    ],
+    "thời sự": [
+        "Tình hình thời sự dạo này thế nào bạn?",
+        "Có sự kiện nào đáng chú ý không?",
+        "Cập nhật tin tức thời sự mỗi ngày rất quan trọng đó!"
+    ],
+    "kinh tế": [
+        "Tình hình kinh tế đang có nhiều biến động nhỉ?",
+        "Bạn có quan tâm đến thị trường tài chính không?",
+        "Theo dõi tin kinh tế giúp ta có cái nhìn tổng quan hơn."
+    ],
+    "giáo dục": [
+        "Giáo dục là nền tảng của sự phát triển!",
+        "Bạn nghĩ gì về hệ thống giáo dục hiện nay?",
+        "Học tập suốt đời là chìa khóa của thành công đó!"
+    ],
+    "khoa học": [
+        "Những phát minh khoa học mới thật thú vị phải không?",
+        "Bạn có theo dõi các tin tức khoa học không?",
+        "Khoa học giúp cuộc sống của chúng ta tốt đẹp hơn!"
+    ],
+    "công nghệ mới": [
+        "Công nghệ phát triển nhanh quá phải không bạn?",
+        "Bạn có thích trải nghiệm công nghệ mới không?",
+        "Chia sẻ với mình về công nghệ bạn đang quan tâm!"
+    ],
+    "sáng tạo": [
+        "Sáng tạo giúp cuộc sống thêm thú vị!",
+        "Bạn có ý tưởng gì mới không?",
+        "Hãy chia sẻ những ý tưởng sáng tạo của bạn!"
+    ],
+    "kỹ năng": [
+        "Phát triển kỹ năng rất quan trọng đó bạn!",
+        "Bạn muốn học thêm kỹ năng gì?",
+        "Rèn luyện kỹ năng mỗi ngày sẽ giúp ta tiến bộ."
+    ],
+    "vl": [
+        "sao vậy, tự dưng chửi thế",
+        "?",
+        "j vậy trời"
+    ]
+}
